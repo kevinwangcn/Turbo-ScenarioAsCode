@@ -4,7 +4,7 @@ metadata:
   name: kubeturbo
   namespace: turbo
 spec:
-  replicas: 3
+  replicas: 5
   selector:
     matchLabels:
       app.kubernetes.io/name: kubeturbo
